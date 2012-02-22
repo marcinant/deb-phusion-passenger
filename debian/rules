@@ -7,7 +7,17 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
 
 %:
 	dh $@ 
+
+override_dh_auto_build:
+	PATH=/usr/bin:$$PATH rake --trace doc apache2 APXS2=/usr/bin/apxs2 USE_VENDORED_LIBEV=no RELEASE=yes
+	PATH=/usr/bin:$$PATH rake1.9.1 --trace native_support RELEASE=yes
+
+override_dh_clean:
+	PATH=/usr/bin:$$PATH rake apache2:clean
+	PATH=/usr/bin:$$PATH rake1.9.1 native_support:clean
+	rm -rf build/cache
+	dh_clean

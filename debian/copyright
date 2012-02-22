@@ -3,13 +3,13 @@ Upstream-Name: phusion-passenger
 Source: git://github.com/FooBarWidget/passenger.git
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2010 Phusion
 License: GPL-2.0+
 
 Files: debian/*
-Copyright: 2012 Marcin Antczak <marcin.antczak@neutrico.pl>
-License: GPL-2.0+
+Copyright: 2012 neutrico.pl
+	   2012 Marcin Antczak <marcin.antczak@neutrico.pl>
+License: Neutrico-1.0
 
 License: GPL-2.0+
  This package is free software; you can redistribute it and/or modify
@@ -28,5 +28,9 @@ License: GPL-2.0+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+License: Neutrico-1.0
+ The packaging work is copyright 2012, neutrico.pl Marcin Antczak
+ All rights reserved. Commercial use of this package is prohibited.
+
+ Contact <marcin.antczak@neutrico.pl> for the complete text of the
+ Neutrico-1.0 License.
