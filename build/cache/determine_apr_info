@@ -1,1 +1,0 @@
-["@-DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -I/usr/include/apr-1.0"-L/usr/lib -lapr-1
