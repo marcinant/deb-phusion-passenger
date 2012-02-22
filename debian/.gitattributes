@@ -1,0 +1,4 @@
+changelog merge=keepmine
+compat    merge=keepmine
+control   merge=keepmine
+gbp.conf  merge=keepmine

@@ -1,0 +1,5 @@
+phusion-passenger (0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 22 Feb 2012 15:46:15 +0100

@@ -1,0 +1,17 @@
+Source: phusion-passenger
+Section: web
+Priority: extra
+Maintainer: Marcin Antczak <marcin.antczak@neutrico.pl>
+Build-Depends: debhelper (>= 8.0.0), 
+Standards-Version: 3.9.2
+Homepage: http://www.modrails.com/
+Vcs-Git: ssh://git@github.com/marcinant/deb-phusion-passenger.git
+Vcs-Browser: https://github.com/marcinant/deb-phusion-passenger
+
+Package: phusion-passenger
+Architecture: all
+Depends: ${misc:Depends}
+Description: Rails and Rack support for Apache2
+ Phusion Passenger — a.k.a. mod_rails or mod_rack — makes 
+ deployment of Ruby web applications, such as those built on the 
+ revolutionary Ruby on Rails web framework, a breeze.
