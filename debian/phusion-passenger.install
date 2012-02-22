@@ -1,0 +1,8 @@
+bin/passenger-config		usr/bin
+bin/passenger-status		usr/bin
+bin/passenger-make-enterprisey	usr/sbin
+bin/passenger-memory-stats	usr/sbin
+bin/passenger-status		usr/sbin
+lib/*				usr/lib/ruby/vendor_ruby
+resources/*			usr/share/phusion-passenger
+helper-scripts/*		usr/share/phusion-passenger/helper-scripts
