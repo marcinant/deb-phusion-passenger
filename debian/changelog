@@ -1,3 +1,9 @@
+phusion-passenger (3.0.11-1~unstable2) unstable; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 22 Feb 2012 15:50:56 +0100
+
 phusion-passenger (3.0.11-1~unstable1) unstable; urgency=low
 
   * New upstream version import
