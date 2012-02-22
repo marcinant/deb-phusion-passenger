@@ -1,0 +1,1 @@
+" -D_REENTRANT -I/usr/local/include -DHASH_NAMESPACE="__gnu_cxx" -DHASH_NAMESPACE="__gnu_cxx" -DHASH_FUN_H="<hash_fun.h>" -DHAS_ALLOCA_H -DHAS_SFENCE -DHAS_LFENCE

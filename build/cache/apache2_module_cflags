@@ -1,0 +1,1 @@
+":-fPIC -fvisibility=hidden -DVISIBILITY_ATTRIBUTE_SUPPORTED -Wno-attributes -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -DLINUX=2 -D_FORTIFY_SOURCE=2 -D_GNU_SOURCE -D_REENTRANT -I/usr/include/apr-1.0 -I/usr/include/openssl -I/usr/include/xmltok -pthread -I/usr/include/apache2
