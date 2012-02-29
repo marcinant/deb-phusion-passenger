@@ -1,3 +1,9 @@
+phusion-passenger (3.0.11-1~oneiric6) oneiric; urgency=low
+
+  * New build
+
+ -- Marcin Antczak <marcin.antczak@neutrico.pl>  Wed, 29 Feb 2012 13:23:19 +0100
+
 phusion-passenger (3.0.11-1~oneiric5) oneiric; urgency=low
 
   * New build
