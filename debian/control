@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0.0), gem2deb (>= 0.2.6~), rake, apache2-threaded
  apache2-mpm-worker | apache2-mpm-prefork, asciidoc (>= 8.6), source-highlight, libev-dev, libcurl4-openssl-dev
 Standards-Version: 3.9.2
 Homepage: http://www.modrails.com/
-Vcs-Git: ssh://git@github.com/marcinant/deb-phusion-passenger.git
+Vcs-Git: git://github.com/marcinant/deb-phusion-passenger.git
 Vcs-Browser: https://github.com/marcinant/deb-phusion-passenger
 
 Package: phusion-passenger
@@ -21,7 +21,7 @@ Description: Rails and Rack support for Apache2
 
 Package: libapache2-mod-passenger
 Architecture: any
-Depends: ${shlibs:Depends}, apache2.2-common, phusion-passenger (= ${binary:Version})
+Depends: ${shlibs:Depends}, apache2.2-common, phusion-passenger (= ${binary:Version}), ruby-daemon-controller (>= 0.2.5), ruby-rack
 Description: Rails and Rack module for Apache2
  Phusion Passenger — a.k.a. mod_rails or mod_rack — makes 
  deployment of Ruby web applications, such as those built on the 
